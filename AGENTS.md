@@ -1,15 +1,5 @@
-# AGENTS.md
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
 
-## Project
-- Web frontend (empty repo, being initialized)
-
-## Setup & Commands
-- Check `package.json` scripts for exact dev/build/test commands
-- Use project package manager detected from lockfile (`pnpm-lock.yaml`, `yarn.lock`, or `package-lock.json`)
-
-## Conventions
-- Follow existing component patterns once established
-- Prefer colocating tests and styles with components when the project adopts a convention
-
-## Notes
-- Update this file as architecture, tooling, and conventions solidify
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
