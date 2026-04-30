@@ -11,7 +11,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center">
-            <Image src="/logo-no-background.png" alt="Alva" width={100} height={32} className="h-8 w-auto" priority />
+            <Image src="/logo-no-bg.png" alt="Alva" width={100} height={32} className="h-8 w-auto" priority />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
