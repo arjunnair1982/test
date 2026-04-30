@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Footer() {
   return (
     <footer className="bg-dark text-white">
@@ -6,9 +8,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">A</span>
-              </div>
+              <Image src="/logo.png" alt="Alva" width={32} height={32} className="rounded-lg" />
               <span className="text-lg font-semibold">Alva</span>
             </div>
             <p className="mt-4 text-sm text-gray-400 max-w-xs leading-relaxed">
