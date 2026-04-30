@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { ProblemSection } from "@/components/ProblemSection";
 import { WhatAlvaDoes } from "@/components/WhatAlvaDoes";
+import { WhyAlva } from "@/components/WhyAlva";
 import { HowItWorks } from "@/components/HowItWorks";
 import { KeyFeatures } from "@/components/KeyFeatures";
 import { PortalAppSync } from "@/components/PortalAppSync";
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <ProblemSection />
+        <WhyAlva />
         <WhatAlvaDoes />
         <HowItWorks />
         <KeyFeatures />
