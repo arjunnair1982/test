@@ -30,7 +30,7 @@ export function WhoItsFor() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-white" id="about">
+    <section className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold text-brand-charcoal tracking-tight">

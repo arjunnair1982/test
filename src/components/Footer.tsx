@@ -26,9 +26,9 @@ export function Footer() {
             <h4 className="text-sm font-semibold mb-4">Navigation</h4>
             <ul className="space-y-3">
               <li><a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#product" className="text-sm text-gray-400 hover:text-white transition-colors">Our Product</a></li>
-              <li><a href="#about" className="text-sm text-gray-400 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="/#product" className="text-sm text-gray-400 hover:text-white transition-colors">Our Product</a></li>
+              <li><a href="/about" className="text-sm text-gray-400 hover:text-white transition-colors">About Us</a></li>
+              <li><a href="/#contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
