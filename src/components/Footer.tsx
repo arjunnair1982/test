@@ -8,7 +8,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <a href="#">
-              <Image src="/logo.png" alt="Alva" width={24} height={24} className="rounded" />
+              <Image src="/logo.png" alt="Alva" width={100} height={32} className="h-8 w-auto" />
             </a>
             <p className="mt-4 text-sm text-gray-400 max-w-xs leading-relaxed">
               Workflow and communication platform for education consultants managing student university applications.
