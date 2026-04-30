@@ -42,7 +42,7 @@ export function ProblemSection() {
     <section className="py-20 lg:py-28 bg-white" id="problem">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-dark tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-brand-charcoal tracking-tight">
             Managing student applications shouldn&apos;t feel this messy
           </h2>
         </div>
@@ -51,13 +51,13 @@ export function ProblemSection() {
           {problems.map((problem) => (
             <div
               key={problem.title}
-              className="p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-gray-200 transition-colors"
+              className="p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-yellow/30 transition-colors"
             >
-              <div className="w-11 h-11 rounded-lg bg-dark/5 flex items-center justify-center text-dark mb-4">
+              <div className="w-11 h-11 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mb-4">
                 {problem.icon}
               </div>
-              <h3 className="text-base font-semibold text-dark">{problem.title}</h3>
-              <p className="mt-2 text-sm text-gray-500 leading-relaxed">{problem.description}</p>
+              <h3 className="text-base font-semibold text-brand-charcoal">{problem.title}</h3>
+              <p className="mt-2 text-sm text-brand-mid-grey leading-relaxed">{problem.description}</p>
             </div>
           ))}
         </div>

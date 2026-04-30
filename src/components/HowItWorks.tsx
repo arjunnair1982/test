@@ -21,10 +21,10 @@ export function HowItWorks() {
     <section className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-dark tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-brand-charcoal tracking-tight">
             How it works
           </h2>
-          <p className="mt-4 text-lg text-gray-500">
+          <p className="mt-4 text-lg text-brand-mid-grey">
             Three simple steps to bring structure to your process
           </p>
         </div>
@@ -35,11 +35,11 @@ export function HowItWorks() {
 
           {steps.map((step) => (
             <div key={step.number} className="relative text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-dark text-white text-sm font-semibold mb-6 relative z-10">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-brand-yellow text-brand-charcoal text-sm font-semibold mb-6 relative z-10">
                 {step.number}
               </div>
-              <h3 className="text-lg font-semibold text-dark">{step.title}</h3>
-              <p className="mt-3 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">
+              <h3 className="text-lg font-semibold text-brand-charcoal">{step.title}</h3>
+              <p className="mt-3 text-sm text-brand-mid-grey leading-relaxed max-w-xs mx-auto">
                 {step.description}
               </p>
             </div>
