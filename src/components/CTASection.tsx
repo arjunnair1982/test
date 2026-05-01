@@ -11,7 +11,7 @@ export function CTASection() {
           </p>
           <div className="mt-10">
             <a
-              href="mailto:hello@alva.com?subject=Demo Request"
+              href="mailto:info@alvafutures.com?subject=Demo Request"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-brand-charcoal bg-brand-yellow rounded-xl hover:bg-brand-yellow-deep transition-colors shadow-lg shadow-brand-yellow/20"
             >
               Request a Demo
