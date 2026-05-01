@@ -39,27 +39,35 @@ export function WhyAlva() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-gray-50">
+    <section className="py-16 lg:py-24 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-semibold text-brand-charcoal tracking-tight">
             Why Alva
           </h2>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {reasons.map((reason) => (
-            <div
-              key={reason.title}
-              className="p-6 rounded-xl bg-white border border-gray-100 hover:border-brand-yellow/30 transition-colors"
-            >
-              <div className="w-11 h-11 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mb-4">
-                {reason.icon}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+          {/* Human Context Image Placeholder */}
+          <div className="order-2 lg:order-1 h-full flex flex-col pt-2 lg:pt-0">
+            <div className="w-full h-full min-h-[400px] bg-gray-200 animate-pulse rounded-2xl shadow-sm border border-gray-100" />
+            <p className="mt-4 text-sm text-brand-mid-grey/60 text-center italic">Image placeholder for advisor reviewing applications</p>
+          </div>
+
+          <div className="order-1 lg:order-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {reasons.map((reason) => (
+              <div
+                key={reason.title}
+                className="p-6 rounded-xl bg-white border border-gray-100 hover:border-brand-yellow/30 transition-colors"
+              >
+                <div className="w-11 h-11 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mb-4">
+                  {reason.icon}
+                </div>
+                <h3 className="text-base font-semibold text-brand-charcoal">{reason.title}</h3>
+                <p className="mt-2 text-sm text-brand-mid-grey leading-relaxed">{reason.description}</p>
               </div>
-              <h3 className="text-base font-semibold text-brand-charcoal">{reason.title}</h3>
-              <p className="mt-2 text-sm text-brand-mid-grey leading-relaxed">{reason.description}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

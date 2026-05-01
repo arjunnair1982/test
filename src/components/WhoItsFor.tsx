@@ -30,7 +30,7 @@ export function WhoItsFor() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-white">
+    <section className="py-16 lg:py-24 bg-gray-50 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold text-brand-charcoal tracking-tight">
@@ -45,9 +45,10 @@ export function WhoItsFor() {
           {audiences.map((audience) => (
             <div
               key={audience.title}
-              className="text-center p-8 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-yellow/30 transition-colors"
+              className="text-center p-6 rounded-xl bg-white border border-gray-100 hover:border-brand-yellow/30 transition-colors shadow-sm"
             >
-              <div className="w-14 h-14 rounded-xl bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mx-auto mb-5">
+              <div className="w-full h-40 bg-gray-200 animate-pulse rounded-lg mb-6" />
+              <div className="w-12 h-12 rounded-xl bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mx-auto mb-4">
                 {audience.icon}
               </div>
               <h3 className="text-lg font-semibold text-brand-charcoal">{audience.title}</h3>
