@@ -39,9 +39,9 @@ export default function AboutPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-brand-charcoal">Niketha</h3>
+                <h3 className="text-xl font-semibold text-brand-charcoal">Niketha Sushilkumar, Co-Founder</h3>
                 <p className="mt-4 text-sm text-brand-mid-grey leading-relaxed max-w-sm mx-auto">
-                  Niketha previously served as Country Head (India) at Trinity, a US-based strategy consulting firm, where she built and scaled its first international office, driving operational execution and building systems for growth.
+                  Previously served as Country Head (India) at Trinity, a US-based strategy consulting firm, where she built and scaled its first international office, driving operational execution and building systems for growth.
                 </p>
                 <p className="mt-3 text-sm text-brand-mid-grey leading-relaxed max-w-sm mx-auto">
                   She is a Stanford GSB Sloan Fellow, where she focused on education, and a graduate of Dartmouth College. Having studied at leading global institutions, she brings a strong understanding of the student application journey and what it takes to support students effectively.
@@ -59,9 +59,12 @@ export default function AboutPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-brand-charcoal">Flavia</h3>
+                <h3 className="text-xl font-semibold text-brand-charcoal">Flavia Siquara de Andrade, Co-Founder</h3>
                 <p className="mt-4 text-sm text-brand-mid-grey leading-relaxed max-w-sm mx-auto">
-                  Bio coming soon.
+                  Experienced in building and structuring operations from the ground up. She led the creation of AGR Agricultura de Precisao, developing a solid operational model focused on efficiency, execution, and sustainable growth.
+                </p>
+                <p className="mt-3 text-sm text-brand-mid-grey leading-relaxed max-w-sm mx-auto">
+                  With cross-border business experience, she connects vision with execution to deliver real results. Today, she applies this same approach to building solutions in education and technology, creating products that solve real problems and generate consistent value.
                 </p>
               </div>
             </div>
