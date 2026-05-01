@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function WhyAlva() {
   const reasons = [
     {
@@ -48,10 +50,9 @@ export function WhyAlva() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Human Context Image Placeholder */}
-          <div className="order-2 lg:order-1 h-full flex flex-col pt-2 lg:pt-0">
-            <div className="w-full h-full min-h-[400px] bg-gray-200 animate-pulse rounded-2xl shadow-sm border border-gray-100" />
-            <p className="mt-4 text-sm text-brand-mid-grey/60 text-center italic">Image placeholder for advisor reviewing applications</p>
+          {/* Human Context Image */}
+          <div className="order-2 lg:order-1 h-full min-h-[400px] relative rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <Image src="/Why Alva.png" alt="Why Alva" fill className="object-cover" />
           </div>
 
           <div className="order-1 lg:order-2 grid grid-cols-1 sm:grid-cols-2 gap-6">

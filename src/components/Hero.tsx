@@ -1,9 +1,18 @@
 "use client";
 
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-20 lg:pt-24 lg:pb-28">
+      <Image
+        src="/Hero Background.png"
+        alt="Hero Background"
+        fill
+        className="object-cover object-top opacity-50 pointer-events-none"
+        priority
+      />
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-20 lg:pt-24 lg:pb-28">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-brand-charcoal tracking-tight leading-tight">
             Simple, student-friendly communication with smart alerts — so you never miss a deadline.

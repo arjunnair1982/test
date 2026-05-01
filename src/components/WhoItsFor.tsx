@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function WhoItsFor() {
   const audiences = [
     {
@@ -7,7 +9,8 @@ export function WhoItsFor() {
         </svg>
       ),
       title: "Education consultants",
-      description: "Independent consultants managing their own student caseload"
+      description: "Independent consultants managing their own student caseload",
+      imgSrc: "/Independent Consultant.png"
     },
     {
       icon: (
@@ -16,7 +19,8 @@ export function WhoItsFor() {
         </svg>
       ),
       title: "College admissions advisors",
-      description: "School-based advisors supporting students through the application process"
+      description: "School-based advisors supporting students through the application process",
+      imgSrc: "/College Admissions Officer.png"
     },
     {
       icon: (
@@ -25,7 +29,8 @@ export function WhoItsFor() {
         </svg>
       ),
       title: "Boutique consulting firms",
-      description: "Small to mid-sized firms delivering high-touch, premium service"
+      description: "Small to mid-sized firms delivering high-touch, premium service",
+      imgSrc: "/Boutique Consulting Firm.png"
     }
   ];
 
@@ -47,7 +52,9 @@ export function WhoItsFor() {
               key={audience.title}
               className="text-center p-6 rounded-xl bg-white border border-gray-100 hover:border-brand-yellow/30 transition-colors shadow-sm"
             >
-              <div className="w-full h-40 bg-gray-200 animate-pulse rounded-lg mb-6" />
+              <div className="w-full h-40 relative rounded-lg mb-6 overflow-hidden border border-gray-100 shadow-sm">
+                <Image src={audience.imgSrc} alt={audience.title} fill className="object-cover" />
+              </div>
               <div className="w-12 h-12 rounded-xl bg-brand-yellow/15 flex items-center justify-center text-brand-yellow mx-auto mb-4">
                 {audience.icon}
               </div>
